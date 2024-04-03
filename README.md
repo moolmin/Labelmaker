@@ -1,0 +1,2 @@
+ <h1>Motivation</h1>
+<p>During my work in logistics team, I found the process of receiving parcels cumbersome, involving four steps: scanning part names, scanning invoice numbers, editing dates, and clicking the Excel output button. Especially when dealing with numerous parts, this process felt highly inefficient. Thus, I conceived the idea of Python web scraping. By scanning only the invoice data and provide it to the company's ER system, I developed a program that automatically retrieves the rest of the information into Excel, making the entire process much smoother.</p>
