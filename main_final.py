@@ -3,19 +3,12 @@ from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.chrome.options import Options
 from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.common.by import By
-from selenium.webdriver.common.keys import Keys
-from selenium.webdriver.support.ui.WebDriverWait
+from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
-import win32com.client
-
 import openpyxl
-import requests
-from bs4 import BeautifulSoup
 import time
 import os
-
-from datetime import datetime
 
 # Path to the Excel file
 excel_file_path = ""  # Label file path
